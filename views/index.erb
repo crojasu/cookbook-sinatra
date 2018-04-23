@@ -1,0 +1,11 @@
+<%= Time.now %>
+<h1>The recipes</h1>
+
+<ul>
+  <% @recipes.each do |recipe| %>
+    <li>
+      <%= recipe.name %>
+    </li>
+  <% end %>
+</ul>
+<a> New URL </a>
